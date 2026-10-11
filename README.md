@@ -4,7 +4,7 @@ API to handle mouse buttons on selected hotbar item/block in VoxelCore
 
 ## Versions
 
-VoxelCore >= 0.32
+VoxelCore 0.26 - 0.32+
 
 ## How it works
 
