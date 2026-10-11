@@ -1,0 +1,7 @@
+{
+  "id": "mha",
+  "title": "Mouse Buttons Handle API",
+  "creator": "VulpesDust, Andryha",
+  "version": "0.2.0",
+  "description": "API to handle mouse buttons on selected hotbar item/block in VoxelCore"
+}
