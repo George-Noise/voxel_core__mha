@@ -18,7 +18,7 @@ local api = {}
 ---
 --- @example
 --- api.registry2(
----   'mod_id:some_item.item',
+---   'mod_id:item_id',
 --- 	{
 ---     on_lmb = function(state) print(state) end,
 ---		  on_rmb = function(state) print(state) end,
@@ -26,10 +26,10 @@ local api = {}
 --- )
 ---
 ---
----	item_id: string ('mod_id:some_item.item')
+---	item_id: string ('mod_id:item_id')
 --- callbacks:
 --- {
----   ['mod_id:some_item.item'] =
+---   ['mod_id:item_id'] =
 ---     {
 ---       on_lmb = function(state),
 ---       on_rmb = function(state),
@@ -48,7 +48,7 @@ end
 ---
 --- Add one item/block to mouse buttons handler
 ---
---- @param item_id - string ('mod_id:some_item.item')
+--- @param item_id - string ('mod_id:item_id')
 --- @param lmb_func - func('down' | 'up') | nil
 --- @param rmb_func - func('down' | 'up') | nil
 function api.add_item(item_id, lmb_func, rmb_func)

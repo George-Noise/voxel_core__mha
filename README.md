@@ -41,13 +41,13 @@ local function on_right_click(state)
 end
 
 mha.register({
-  ["mod_id:some_item.item"] = {
+  ["mod_id:item_id"] = {
     on_lmb = on_left_click,
     on_rmb = on_right_click,
   },
 })
 -- OR
-mha.register("mod_id:some_item.item", {
+mha.register("mod_id:item_id", {
   on_lmb = on_left_click,
   on_rmb = on_right_click,
 })
